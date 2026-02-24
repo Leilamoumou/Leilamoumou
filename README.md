@@ -1,18 +1,24 @@
 # Greetings ₍⸍⸌̣ʷ̣̫⸍̣⸌₎!
-Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics.
----
+  Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I also a tech fellow for CodePath's Intermediate Cybersecurity course!
 ## My interests
----
+  Algorithms and development have fascinated me since I was a kid, as I'd play flash plugin JS games (or even mario kart) and be fascinated by the idea that code could bring such to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification is critical. I am looking forward to seeking my masters a year or two post-grad, and hopefully get the privilege of doing research beyond such as well. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such in modern cybersecurity infrastructure.
 ## What I'm currently working on
+ I am currently working on building projects during my last semester. I have worked on frontend & backend projects, but plan to continue to build more projects to improve my experience in understanding system design! I am also planning to obtain a cybersecurity related certification, and doing my research before embarking the journey of studying for it.
+ 
+## My Current Projects
 
-## My current projects
-| [another-repo](https://github.com/Leilamoumou/repo) | your description here |
+| [another-repo](https://github.com/Leilamoumou/repo) | portfolio, TBA|
 
-|[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) | |
+| [another-repo](https://github.com/Leilamoumou/repo) | projectgreenbean*, TBA|
+|[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) | I am currently in a group project for my capstone, where our AI agent connects users with plumbers best suited for the task at hand! I am responsible for our frontend homepage & login, CI/CD implementation, testing frameworks, as well as our backend, beyond our AI API. |
 
+---
+
+## Recently Completed Projects
+| [hangman](https://github.com/Leilamoumou/hangman) | I decided to work on this project to enhance my capability of enhancing preexisting code, which would help further my skills in doing so beyond projects as well as refine my own! | @2/23/26
 <!--| [another-repo](https://github.com/Leilamoumou/repo) | your description here |-->
 ---
-## My tech stack 
+## My Tech Stack 
 
  **Programming Languages:**
 
@@ -50,6 +56,8 @@ Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final seme
 ---
 
 ## Connect with me here!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leila-moumou-970327276/)
 
 <!--
 **Leilamoumou/Leilamoumou** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
