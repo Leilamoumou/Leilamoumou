@@ -6,11 +6,11 @@ Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final seme
 ## What I'm currently working on
 
 ## My current projects
+| [another-repo](https://github.com/Leilamoumou/repo) | your description here |
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=Leilamoumou&repo=flowfix-capstone&theme=dark)](https://github.com/Leilamoumou/flowfix-capstone)
+|[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) | |
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=YOURUSERNAME&repo=REPONAME2&theme=dark)](https://github.com/YOURUSERNAME/REPONAME2)
-
+<!--| [another-repo](https://github.com/Leilamoumou/repo) | your description here |-->
 ---
 ## My tech stack 
 
