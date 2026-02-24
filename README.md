@@ -7,7 +7,7 @@ Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final seme
 
 ## My current projects
 
-[![Repo Card]([https://github-readme-stats.vercel.app/api/pin/?username=YOURUSERNAME&repo=REPONAME&theme=dark)](https://github.com/YOURUSERNAME/REPONAME](https://github.com/Leilamoumou/flowfix-capstone))
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=Leilamoumou&repo=flowfix-capstone&theme=dark)](https://github.com/Leilamoumou/flowfix-capstone)
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=YOURUSERNAME&repo=REPONAME2&theme=dark)](https://github.com/YOURUSERNAME/REPONAME2)
 
