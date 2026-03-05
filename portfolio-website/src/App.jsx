@@ -2,44 +2,7 @@ import { useState, useEffect } from "react"
 import './App.css'
 //import Navbar from './components/Navbar'
 //import Projects from './components/Projects'import './App.css'
-/*
-function App() {
-  return (
-    <>
-      <nav>
-        <h1>Leila Moumou's Portfolio </h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
 
-      <section id="about">
-        <h2>Greetings ₍⸍⸌̣ʷ̣̫⸍̣⸌₎!</h2>
-        <p>My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I also a tech fellow for CodePath's Intermediate Cybersecurity course!
-
-</p>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-        <div className="project-card">
-          <h3>FlowFix</h3>
-          <p>Short description of what it does.</p>
-          <a href="https://github.com/Leilamoumou/flowfix-capstone">View on GitHub</a>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <a href="mailto:your@email.com">Gmail</a>
-        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-      </section>
-    </>
-  )
-}
-*/
 
 const NAV_LINKS = [
   {
@@ -63,6 +26,46 @@ const PROJECTS = [
     tag: "Capstone",
     color: '#FF3CAC'
   }
+   ,{
+    id: 2,
+    name: "Empire Mimikatz Kerberos Attack Forensics | CodePath CYB102 Capstone	",
+    //update w details
+    description: "Conducted forensic analysis of an Empire/Mimikatz Kerberos credential harvesting attack, analyzing 2,480 network events in Splunk to identify C2 patterns, detect DCSync/DRSUAPI abuse across 4 compromised workstations, and map TTPs to MITRE ATT&CK framework (T1558.003, T1078, T1071.001).",
+   //need to properly link the material.
+    github: "https://github.com/Leilamoumou/flowfix-capstone",
+    tag: "CodePath",
+    color: '#FF3CAC'
+  },
+   {
+    id: 3,
+    name: "Hangman",
+    //update w details
+    description: "streamlining workflows, updating description soon.",
+    github: "https://github.com/Leilamoumou/Hangman",
+    tag: "Personal Project",
+    color: '#FF3CAC'
+  }
+  ,
+  {
+    id: 4,
+    name: "Project GreenBean",
+    //update w details
+    description: "optimization coming soon!",
+    github: "https://github.com/Leilamoumou/greenbean",
+    tag: "Personal Project",
+    color: '#FF3CAC'
+  },
+  {
+    id: 5,
+    name: "MeowCode",
+    //update w details
+    description: "a personal project i am looking forward to updating on!!",
+    github: "https://github.com/Leilamoumou/Meowcode",
+    tag: "Personal Project",
+    color: '#FF3CAC'
+  }
+  
+
 ]
 function Navbar(){
   const [scrolled, setScrolled] = useState(false)
@@ -164,7 +167,7 @@ function Contact() {
   return(
     <section id="contact" className="contact">
       <h2 className="section-title">
-        Let's Connect! <span className='section-title__dot'>.</span>
+        Let's Connect <span className='section-title__dot'>!</span>
       </h2>
       <p className="contact__sub"> I'm open for opportunities to grow and learn through new faces!</p>
     <div className="contact__links">
