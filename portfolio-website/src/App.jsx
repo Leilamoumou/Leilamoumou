@@ -110,8 +110,8 @@ function Hero(){
             <span className="tag tag--pink">CodePath Tech Fellow</span>
           </div>
            <p className="hero__bio">
-         I'm currently in my final semester, pursuing a BA in Computer Science with a minor in Mathematics.
-          Tech Fellow for CodePath's Intermediate Cybersecurity course.
+         My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I'm also a tech fellow for CodePath's Intermediate Cybersecurity course!
+         Algorithms and development have fascinated me since I was a kid, as I'd play Flash plugin JS games (or even Mario Kart) and be fascinated by the idea that code could bring such things to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification are critical. I am looking forward to seeking my master's a year or two post-grad, and hopefully get the privilege of doing research beyond that as well. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such in modern cybersecurity infrastructure.
         </p>
         <a href="#projects" className="hero__cta">See My Work Here! →</a>
       </div>
