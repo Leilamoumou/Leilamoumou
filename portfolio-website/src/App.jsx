@@ -77,7 +77,7 @@ function Navbar(){
     <nav className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
     <span className= "navbar__logo">LM<span className="navbar__dot">.</span></span>
     <ul className="navbar__links">
-      {MAV_LINKS.map(({  href, label}) => (
+      {NAV_LINKS.map(({  href, label}) => (
         <li key={href}>
           <a href={href} className="navbar__link">{label}</a>
         </li>
