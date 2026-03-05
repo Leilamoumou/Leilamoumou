@@ -67,9 +67,9 @@ const PROJECTS = [
 function Navbar(){
   const [scrolled, setScrolled] = useState(false)
     useEffect(()=> {
-          const onscroll = () => setScrolled(window.scrollY > 20)
+          const onScroll = () => setScrolled(window.scrollY > 20)
           window.addEventListener("scroll", onScroll)
-          return () => window.removeEventListener("scroll", onScroll)
+          return () => window.removeEventListener("scroll", onScroll)   
     }, 
   [])
 
