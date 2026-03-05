@@ -1,9 +1,9 @@
 # Greetings ₍⸍⸌̣ʷ̣̫⸍̣⸌₎!
-  Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I also a tech fellow for CodePath's Intermediate Cybersecurity course!
+  Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I'm also a tech fellow for CodePath's Intermediate Cybersecurity course!
 ## My interests
-  Algorithms and development have fascinated me since I was a kid, as I'd play flash plugin JS games (or even mario kart) and be fascinated by the idea that code could bring such to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification is critical. I am looking forward to seeking my masters a year or two post-grad, and hopefully get the privilege of doing research beyond such as well. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such in modern cybersecurity infrastructure.
+  Algorithms and development have fascinated me since I was a kid, as I'd play Flash plugin JS games (or even Mario Kart) and be fascinated by the idea that code could bring such things to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification are critical. I am looking forward to seeking my master's a year or two post-grad, and hopefully get the privilege of doing research beyond that as well. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such in modern cybersecurity infrastructure.
 ## What I'm currently working on
- I am currently working on building projects during my last semester. I have worked on frontend & backend projects, but plan to continue to build more projects to improve my experience in understanding system design! I am also planning to obtain a cybersecurity related certification, and doing my research before embarking the journey of studying for it.
+ I am currently working on building projects during my last semester. I have worked on frontend & backend projects, but plan to continue to build more projects to improve my experience in understanding system design! I am also planning to obtain a cybersecurity-related certification, and doing my research before embarking on the journey of studying for it.
  
 ## My Current Projects
 
