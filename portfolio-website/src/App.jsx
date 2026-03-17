@@ -13,7 +13,16 @@ const NAV_LINKS = [
   },
   {
     href: '#contact' , label: "Contact"
+
   },
+  //NEW LINKS : 3/17/26 
+  //2 NEW LINKS : 1, #INTERESTS . 2, #CURRENTLY
+  {
+    href: "#interests", label: "About Me++"
+  },
+{
+  href: "#currently", label: "My Current Works && TODOs"
+},
 ]
 
 const PROJECTS = [
@@ -110,10 +119,14 @@ function Hero(){
             <span className="tag tag--pink">CodePath Tech Fellow</span>
           </div>
            <p className="hero__bio">
-         My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I'm also a tech fellow for CodePath's Intermediate Cybersecurity course!
-         Algorithms and development have fascinated me since I was a kid, as I'd play Flash plugin JS games (or even Mario Kart) and be fascinated by the idea that code could bring such things to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification are critical. I am looking forward to seeking my master's a year or two post-grad, and hopefully get the privilege of doing research beyond that as well. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such in modern cybersecurity infrastructure.
+                      Welcome to my portfolio site! As of Spring 26, I'm in my final semester of pursuing my Bachelor of Arts in Computer Science, along with a Math minor.
+                       I am currently a returning Tech Fellow for CodePath's Intermediate Cybersecurity course!
+
         </p>
-        <a href="#projects" className="hero__cta">See My Work Here! →</a>
+        <a href="#projects" className="hero__cta">See My Work Here!→</a>
+    <a href="#interests" className="hero__cta">My Passions && Interests Pertaining To The Field→</a>
+    <a href="#currently" className="hero__cta">Check Out What I'm Currently Up To→</a>
+
       </div>
       <div className="hero__deco">
         <div className="deco-ring" />
