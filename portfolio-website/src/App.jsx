@@ -74,8 +74,17 @@ const PROJECTS = [
     color: '#FF3CAC'
   }
   
-
 ]
+//interests 
+const INTERESTS=[
+  {},
+]
+//current works
+const CURRENTLY=[
+  {},
+]
+
+// NAVBAR
 function Navbar(){
   const [scrolled, setScrolled] = useState(false)
     useEffect(()=> {
@@ -123,7 +132,7 @@ function Hero(){
                        I am currently a returning Tech Fellow for CodePath's Intermediate Cybersecurity course!
 
         </p>
-        <a href="#projects" className="hero__cta">See My Work Here!→</a>
+    <a href="#projects" className="hero__cta">See My Work Here!→</a>
     <a href="#interests" className="hero__cta">My Passions && Interests Pertaining To The Field→</a>
     <a href="#currently" className="hero__cta">Check Out What I'm Currently Up To→</a>
 
@@ -200,6 +209,55 @@ function Contact() {
   )
 }
 
+//function interests and current
+
+function Interests(){
+  return(
+    <section id= "interests"  className="interests">
+        <h1 className="section--title">
+        Interests(CHANGING!) <span className="section-title__dot">.</span>
+      </h1>
+      <p>
+        Will list the pre && post college interests relating to tech here.
+      </p>
+    </section>
+
+    /* 
+     <section id= "projects" className="projects">
+      <h2 className="section--title">
+        Projects <span className="section-title__dot">.</span>
+      </h2>
+      <div className="projects__grid">
+        {PROJECTS.map(p => <ProjectCard key={p.id} project={p} /> )}
+      </div>
+    </section>
+    */
+  )
+}
+function Current(){
+  return (
+    <section id="currently" className="currently">
+       <h1 className="section--title">
+        Interests(CHANGING!) <span className="section-title__dot">.</span>
+      </h1>
+      <p>
+        current works shown here & progress updates. also updating functionality on it.
+      </p>
+    </section>
+    /* 
+     <section id= "projects" className="projects">
+      <h2 className="section--title">
+        Projects <span className="section-title__dot">.</span>
+      </h2>
+      <div className="projects__grid">
+        {PROJECTS.map(p => <ProjectCard key={p.id} project={p} /> )}
+      </div>
+    </section>
+    */
+
+  )
+}
+
 function Footer(){
   return ( 
     <footer className="footer">
@@ -220,6 +278,8 @@ function App(){
       <Contact />
     </main>
     <Footer />
+    <Interests />
+    <Current />
     </>
   )
 }
