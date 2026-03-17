@@ -21,7 +21,7 @@ const NAV_LINKS = [
     href: "#interests", label: "About Me++"
   },
 {
-  href: "#currently", label: "My Current Works && TODOs"
+  href: "#currently", label: "Curr_Commits"
 },
 ]
 
@@ -33,6 +33,8 @@ const PROJECTS = [
     description: "streamlining workflows, updating description soon.",
     github: "https://github.com/Leilamoumou/flowfix-capstone",
     tag: "Capstone",
+    tag: "HTML",
+    tag: "CSS",
     color: '#FF3CAC'
   }
    ,{
@@ -76,12 +78,18 @@ const PROJECTS = [
   
 ]
 //interests 
-const INTERESTS=[
-  {},
-]
+//const INTERESTS=[
+  //{},
+//]
 //current works
 const CURRENTLY=[
-  {},
+  {
+    id: 1,
+    name: "Capstone- FlowFix",
+   description: "streamlining workflows, updating description soon.",
+tag: "CAPSTONE",
+color: "#FF3CAC"
+  },
 ]
 
 // NAVBAR
@@ -222,16 +230,7 @@ function Interests(){
       </p>
     </section>
 
-    /* 
-     <section id= "projects" className="projects">
-      <h2 className="section--title">
-        Projects <span className="section-title__dot">.</span>
-      </h2>
-      <div className="projects__grid">
-        {PROJECTS.map(p => <ProjectCard key={p.id} project={p} /> )}
-      </div>
-    </section>
-    */
+   
   )
 }
 function Current(){
@@ -244,16 +243,7 @@ function Current(){
         current works shown here & progress updates. also updating functionality on it.
       </p>
     </section>
-    /* 
-     <section id= "projects" className="projects">
-      <h2 className="section--title">
-        Projects <span className="section-title__dot">.</span>
-      </h2>
-      <div className="projects__grid">
-        {PROJECTS.map(p => <ProjectCard key={p.id} project={p} /> )}
-      </div>
-    </section>
-    */
+
 
   )
 }
@@ -276,10 +266,10 @@ function App(){
       <Hero  />
       <Projects  />
       <Contact />
+       <Interests />
+       <Current />
     </main>
     <Footer />
-    <Interests />
-    <Current />
     </>
   )
 }
