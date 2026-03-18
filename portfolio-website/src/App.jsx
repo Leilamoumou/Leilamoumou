@@ -139,8 +139,8 @@ function Hero(){
                        I am currently a returning Tech Fellow for CodePath's Intermediate Cybersecurity course!
 
         </p>
-        <div className="hero__ctas">
-
+       
+ <div className="hero__ctas">
     <a href="#projects" className="hero__cta">See My Work Here!→</a>
     <a href="#interests" className="hero__cta">My Passions &amp;&amp; Interests Pertaining To The Field→</a>
     <a href="#currently" className="hero__cta">Check Out What I'm Currently Up To→</a>

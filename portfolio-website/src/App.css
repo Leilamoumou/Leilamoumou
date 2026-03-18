@@ -205,7 +205,7 @@ ul{
 .hero_ctas{
  display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 .hero__cta:hover {
   transform: translateY(-3px);
