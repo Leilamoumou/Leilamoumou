@@ -220,7 +220,7 @@ function Contact() {
 //function interests and current
 function CurrentCard ({ current }){
   return (
-        <div className="currently--card" style={{"--accent": current.color}}>
+        <div className="currently-card" style={{"--accent": current.color}}>
           <span className="current-card__tag">
               {Array.isArray(current.tag) ? current.tag.join(" · ") : current.tag}
             </span>
