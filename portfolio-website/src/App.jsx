@@ -81,11 +81,13 @@ const PROJECTS = [
 //current works
 const CURRENT=[
   {
-    id: 1,
-    name: "Capstone- FlowFix",
-   description: "streamlining workflows, updating description soon.",
-tag: "CAPSTONE",
-color: "#FF3CAC"
+   id: 1,
+    name: "FlowFix",
+    //update w details
+    description: "streamlining workflows, updating description soon.",
+    github: "https://github.com/Leilamoumou/flowfix-capstone",
+    tag: ["Capstone","HTML","CSS"],
+    color: '#FF3CAC'
   },
 ]
 

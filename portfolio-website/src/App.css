@@ -197,6 +197,7 @@ ul{
   font-size: 1rem;
   font-weight: 700;
   border-radius: 4px;
+  margin: 0 10px;
   letter-spacing: 0.02em;
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 0 30px rgba(255,60,172,0.4);
