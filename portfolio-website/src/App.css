@@ -188,7 +188,14 @@ ul{
   max-width: 520px;
   margin-bottom: 2.5rem;
 }
+.hero_ctas{
 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
 .hero__cta {
   display: inline-block;
   padding: 0.9rem 2.2rem;
@@ -201,11 +208,6 @@ ul{
   letter-spacing: 0.02em;
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 0 30px rgba(255,60,172,0.4);
-}
-.hero_ctas{
- display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
 }
 .hero__cta:hover {
   transform: translateY(-3px);
