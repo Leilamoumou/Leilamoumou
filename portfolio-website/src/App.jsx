@@ -216,7 +216,7 @@ function Contact() {
 }
 
 //function interests and current
-function CurrentCard ({ Currently }){
+function CurrentCard ({ current }){
   return (
         <div className="currently--card" style={{"--accent": project.color}}>
           <span className="project-card__tag">
@@ -267,7 +267,7 @@ function Currently(){
         current works shown here &amp;  progress updates. also updating functionality on it.
       </p>
        <div className="currently__grid">
-        {CURRENT.map(c => <CurrentCard key={c.id} project={c} />)}
+        {CURRENT.map(c => <CurrentCard key={c.id} current={c} />)}
       </div>
     </section>
 
