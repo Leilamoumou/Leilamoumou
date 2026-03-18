@@ -216,14 +216,40 @@ function Contact() {
 }
 
 //function interests and current
+function CurrentCard ({ Currently }){
+  return (
+        <div className="currently--card" style={{"--accent": project.color}}>
+          <span className="project-card__tag">
+              {Array.isArray(project.tag) ? project.tag.join(" · ") : project.tag}
+            {project.tag}
+            </span>
+          <h3 className="project-card__name">
+        {project.name}
+          </h3>
+          <p className="project-card__desc">
+            
+            {project.description}
 
+          </p>
+          <a
+          href={project.github}
+          className= "project--card__link"
+          target= "_blank"
+          rel="noreferrer"
+          >
+          
+            View on GitHub ↗
+             </a>
+        </div>
+  )
+}
 function Interests(){
   return(
     <section id= "interests"  className="interests">
         <h1 className="section--title">
         Interests(CHANGING!) <span className="section-title__dot">.</span>
       </h1>
-      <p>
+      <p className="interests__bio">
         Will list the pre &amp;&amp; post college interests relating to tech here.
       </p>
     </section>
@@ -233,15 +259,15 @@ function Interests(){
 }
 function Currently(){
   return (
-    <section id="currently" className="projects">
+    <section id="currently" className="currently">
        <h1 className="section--title">
-        Interests(curr!) <span className="section-title__dot">.</span>
+        My Latest Commits <span className="section-title__dot"></span>
       </h1>
       <p>
         current works shown here &amp;  progress updates. also updating functionality on it.
       </p>
-       <div className="projects__grid">
-        {CURRENT.map(item => <ProjectCard key={item.id} project={item} />)}
+       <div className="currently__grid">
+        {CURRENT.map(item => <CurrentCard key={c.id} project={c} />)}
       </div>
     </section>
 
