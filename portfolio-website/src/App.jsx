@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import './App.css'
 //import Navbar from './components/Navbar'
-//import Projects from './components/Projects'import './App.css'
 
 
 const NAV_LINKS = [
@@ -32,9 +31,7 @@ const PROJECTS = [
     //update w details
     description: "streamlining workflows, updating description soon.",
     github: "https://github.com/Leilamoumou/flowfix-capstone",
-    tag: "Capstone",
-    tag: "HTML",
-    tag: "CSS",
+    tag: ["Capstone","HTML","CSS"],
     color: '#FF3CAC'
   }
    ,{
@@ -82,7 +79,7 @@ const PROJECTS = [
   //{},
 //]
 //current works
-const CURRENTLY=[
+const CURRENT=[
   {
     id: 1,
     name: "Capstone- FlowFix",
@@ -237,10 +234,10 @@ function Current(){
   return (
     <section id="currently" className="currently">
        <h1 className="section--title">
-        Interests(CHANGING!) <span className="section-title__dot">.</span>
+        Interests(curr!) <span className="section-title__dot">.</span>
       </h1>
       <p>
-        current works shown here & progress updates. also updating functionality on it.
+        current works shown here &amp;  progress updates. also updating functionality on it.
       </p>
     </section>
 
