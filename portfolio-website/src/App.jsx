@@ -140,7 +140,7 @@ function Hero(){
 
         </p>
     <a href="#projects" className="hero__cta">See My Work Here!→</a>
-    <a href="#interests" className="hero__cta">My Passions && Interests Pertaining To The Field→</a>
+    <a href="#interests" className="hero__cta">My Passions &amp;&amp; Interests Pertaining To The Field→</a>
     <a href="#currently" className="hero__cta">Check Out What I'm Currently Up To→</a>
 
       </div>
@@ -157,7 +157,7 @@ function ProjectCard ({ project }){
         <div className="project--card" style={{"--accent": project.color}}>
           <span className="project-card__tag">
               {Array.isArray(project.tag) ? project.tag.join(" · ") : project.tag}
-            {project.tag}
+           
             </span>
           <h3 className="project-card__name">
         {project.name}
