@@ -154,6 +154,7 @@ function ProjectCard ({ project }){
   return (
         <div className="project--card" style={{"--accent": project.color}}>
           <span className="project-card__tag">
+              {Array.isArray(project.tag) ? project.tag.join(" · ") : project.tag}
             {project.tag}
             </span>
           <h3 className="project-card__name">
@@ -223,14 +224,14 @@ function Interests(){
         Interests(CHANGING!) <span className="section-title__dot">.</span>
       </h1>
       <p>
-        Will list the pre && post college interests relating to tech here.
+        Will list the pre &amp;&amp; post college interests relating to tech here.
       </p>
     </section>
 
    
   )
 }
-function Current(){
+function Currently(){
   return (
     <section id="currently" className="currently">
        <h1 className="section--title">
@@ -239,6 +240,9 @@ function Current(){
       <p>
         current works shown here &amp;  progress updates. also updating functionality on it.
       </p>
+       <div className="projects__grid">
+        {CURRENT.map(item => <ProjectCard key={item.id} project={item} />)}
+      </div>
     </section>
 
 
