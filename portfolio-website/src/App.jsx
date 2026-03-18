@@ -233,7 +233,7 @@ function Interests(){
 }
 function Currently(){
   return (
-    <section id="currently" className="currently">
+    <section id="currently" className="projects">
        <h1 className="section--title">
         Interests(curr!) <span className="section-title__dot">.</span>
       </h1>
@@ -265,10 +265,10 @@ function App(){
     <Navbar />
     <main>
       <Hero  />
-      <Projects  />
-      <Contact />
        <Interests />
+          <Projects  />
        <Currently />
+       <Contact />
     </main>
     <Footer />
     </>
