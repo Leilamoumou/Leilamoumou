@@ -218,22 +218,22 @@ function Contact() {
 //function interests and current
 function CurrentCard ({ current }){
   return (
-        <div className="currently--card" style={{"--accent": project.color}}>
-          <span className="project-card__tag">
-              {Array.isArray(project.tag) ? project.tag.join(" · ") : project.tag}
-            {project.tag}
+        <div className="currently--card" style={{"--accent": current.color}}>
+          <span className="current-card__tag">
+              {Array.isArray(current.tag) ? current.tag.join(" · ") : current.tag}
+            {current.tag}
             </span>
-          <h3 className="project-card__name">
-        {project.name}
+          <h3 className="current-card__name">
+        {current.name}
           </h3>
-          <p className="project-card__desc">
+          <p className="current-card__desc">
             
-            {project.description}
+            {current.description}
 
           </p>
           <a
-          href={project.github}
-          className= "project--card__link"
+          href={current.github}
+          className= "current--card__link"
           target= "_blank"
           rel="noreferrer"
           >
