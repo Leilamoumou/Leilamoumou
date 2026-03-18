@@ -267,7 +267,7 @@ function Currently(){
         current works shown here &amp;  progress updates. also updating functionality on it.
       </p>
        <div className="currently__grid">
-        {CURRENT.map(item => <CurrentCard key={c.id} project={c} />)}
+        {CURRENT.map(c => <CurrentCard key={c.id} project={c} />)}
       </div>
     </section>
 
