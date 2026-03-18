@@ -139,10 +139,12 @@ function Hero(){
                        I am currently a returning Tech Fellow for CodePath's Intermediate Cybersecurity course!
 
         </p>
+        <div className="hero__ctas">
+
     <a href="#projects" className="hero__cta">See My Work Here!→</a>
     <a href="#interests" className="hero__cta">My Passions &amp;&amp; Interests Pertaining To The Field→</a>
     <a href="#currently" className="hero__cta">Check Out What I'm Currently Up To→</a>
-
+</div>
       </div>
       <div className="hero__deco">
         <div className="deco-ring" />
@@ -154,7 +156,7 @@ function Hero(){
 
 function ProjectCard ({ project }){
   return (
-        <div className="project--card" style={{"--accent": project.color}}>
+        <div className="project-card" style={{"--accent": project.color}}>
           <span className="project-card__tag">
               {Array.isArray(project.tag) ? project.tag.join(" · ") : project.tag}
            
@@ -169,7 +171,7 @@ function ProjectCard ({ project }){
           </p>
           <a
           href={project.github}
-          className= "project--card__link"
+          className= "project-card__link"
           target= "_blank"
           rel="noreferrer"
           >
