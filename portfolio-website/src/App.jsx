@@ -221,7 +221,6 @@ function CurrentCard ({ current }){
         <div className="currently--card" style={{"--accent": current.color}}>
           <span className="current-card__tag">
               {Array.isArray(current.tag) ? current.tag.join(" · ") : current.tag}
-            {current.tag}
             </span>
           <h3 className="current-card__name">
         {current.name}
