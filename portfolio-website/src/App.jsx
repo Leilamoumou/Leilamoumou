@@ -268,7 +268,7 @@ function App(){
       <Projects  />
       <Contact />
        <Interests />
-       <Current />
+       <Currently />
     </main>
     <Footer />
     </>
