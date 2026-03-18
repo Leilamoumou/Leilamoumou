@@ -183,7 +183,7 @@ function ProjectCard ({ project }){
 function Projects() {
   return (
     <section id= "projects" className="projects">
-      <h2 className="section--title">
+      <h2 className="section-title">
         Projects <span className="section-title__dot">.</span>
       </h2>
       <div className="projects__grid">
@@ -234,7 +234,7 @@ function CurrentCard ({ current }){
           </p>
           <a
           href={current.github}
-          className= "current--card__link"
+          className= "currently-card__link"
           target= "_blank"
           rel="noreferrer"
           >
@@ -247,7 +247,7 @@ function CurrentCard ({ current }){
 function Interests(){
   return(
     <section id= "interests"  className="interests">
-        <h1 className="section--title">
+        <h1 className="section-title">
         Interests(CHANGING!) <span className="section-title__dot">.</span>
       </h1>
       <p className="interests__bio">
@@ -261,7 +261,7 @@ function Interests(){
 function Currently(){
   return (
     <section id="currently" className="currently">
-       <h1 className="section--title">
+       <h1 className="section-title">
         My Latest Commits <span className="section-title__dot"></span>
       </h1>
       <p>

@@ -12,6 +12,7 @@
   --purple: #7B2FFF;
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
+  --cyan: #00FFED;
 }
 /* resetting */
 *, *::before, *::after { 
@@ -197,7 +198,7 @@ ul{
   font-size: 1rem;
   font-weight: 700;
   border-radius: 4px;
-  margin: 0 10px;
+  margin: 0 20px;
   letter-spacing: 0.02em;
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 0 30px rgba(255,60,172,0.4);
@@ -284,7 +285,7 @@ ul{
   transition: transform 0.25s, border-color 0.25s;
 }
 
-.project-card::before, .currently-card::before {
+.project-card::before, .currently-card:before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
@@ -292,7 +293,7 @@ ul{
   background: var(--accent, var(--pink));
 }
 
-.project-card:hover, .currently-card::hover {
+.project-card:hover, .currently-card:hover {
   transform: translateY(-6px);
   border-color: var(--accent, var(--pink));
 }
