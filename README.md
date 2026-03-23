@@ -3,19 +3,20 @@
 ## My interests
   Algorithms and development have fascinated me since I was a kid, as I'd play Flash plugin JS games (or even Mario Kart) and be fascinated by the idea that code could bring such things to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification are critical. I am looking forward to seeking my master's a year or two post-grad, and hopefully get the privilege of doing research beyond that as well. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such in modern cybersecurity infrastructure.
 ## What I'm currently working on
- I am currently working on building projects during my last semester. I have worked on frontend & backend projects, but plan to continue to build more projects to improve my experience in understanding system design! I am also planning to obtain a cybersecurity-related certification, and doing my research before embarking on the journey of studying for it.
+ I am currently working on building projects during my last semester. I have worked on full-stack projects, but plan to continue building more projects to deepen my understanding of system design! I am also currently studying to obtain my first cybersecurity-related certification and doing my research before embarking on the journey.
  
 ## My Current Projects
-
-| [another-repo](https://github.com/Leilamoumou/repo) | portfolio, TBA|
-
-| [another-repo](https://github.com/Leilamoumou/repo) | projectgreenbean*, TBA|
-|[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) | I am currently in a group project for my capstone, where our AI agent connects users with plumbers best suited for the task at hand! I am responsible for our frontend homepage & login, CI/CD implementation, testing frameworks, as well as our backend, beyond our AI API. |
+|[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) |
+I am currently in a group project for my capstone, where our AI agent connects users with plumbers best suited for the task at hand! I am responsible for our frontend homepage & login, CI/CD implementation, testing frameworks, and our backend beyond our AI API. 
+|[GreenBean](https://github.com/Leilamoumou/cuny-friends-csci405)|
+A revival of a frontend-only project I created, that I'm currently working on integrating a full-stack platform where users can find community through gardening! This involves users who garden for aesthetics, groceries, or many other reasons! 
 
 ---
 
 ## Recently Completed Projects
 | [hangman](https://github.com/Leilamoumou/hangman) | I decided to work on this project to enhance my capability of enhancing preexisting code, which would help further my skills in doing so beyond projects as well as refine my own! | @2/23/26
+|[CunyFriends](https://github.com/Leilamoumou/cuny-friends-csci405)|
+A class project that taught me all about CI/CD, GH actions, full and agile development! 
 <!--| [another-repo](https://github.com/Leilamoumou/repo) | your description here |-->
 ---
 ## My Tech Stack 
