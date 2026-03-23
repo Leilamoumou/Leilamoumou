@@ -9,7 +9,7 @@
 - |[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) |
 I am currently in a group project for my capstone, where our AI agent connects users with plumbers best suited for the task at hand! I am responsible for our frontend homepage & login, CI/CD implementation, testing frameworks, and our backend beyond our AI API. 
 
-- |[GreenBean](https://github.com/Leilamoumou/cuny-friends-csci405)|
+- |[GreenBean](https://github.com/Leilamoumou/greenbean)|
 A revival of a frontend-only project I created, that I'm currently working on integrating a full-stack platform where users can find community through gardening! This involves users who garden for aesthetics, groceries, or many other reasons! 
 
 ---
