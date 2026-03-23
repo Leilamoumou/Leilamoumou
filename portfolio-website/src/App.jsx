@@ -10,10 +10,7 @@ const NAV_LINKS = [
   {
     href: '#projects' , label: "Projects"
   },
-  {
-    href: '#contact' , label: "Contact"
 
-  },
   //NEW LINKS : 3/17/26 
   //2 NEW LINKS : 1, #INTERESTS . 2, #CURRENTLY
   {
@@ -22,6 +19,11 @@ const NAV_LINKS = [
 {
   href: "#currently", label: "Curr_Commits"
 },
+
+{
+    href: '#contact' , label: "Contact"
+
+  },
 ]
 
 const PROJECTS = [
@@ -41,7 +43,7 @@ const PROJECTS = [
     description: "Conducted forensic analysis of an Empire/Mimikatz Kerberos credential harvesting attack, analyzing 2,480 network events in Splunk to identify C2 patterns, detect DCSync/DRSUAPI abuse across 4 compromised workstations, and map TTPs to MITRE ATT&CK framework (T1558.003, T1078, T1071.001).",
    //need to properly link the material.
     github: "https://github.com/Leilamoumou/flowfix-capstone",
-    tag: "CodePath",
+    tag: ["CodePath","Wireshark","Splunk","Catalyst"],
     color: '#FF3CAC'
   },
    {
@@ -50,28 +52,18 @@ const PROJECTS = [
     //update w details
     description: "streamlining workflows, updating description soon.",
     github: "https://github.com/Leilamoumou/Hangman",
-    tag: "Personal Project",
-    color: '#FF3CAC'
-  }
-  ,
-  {
-    id: 4,
-    name: "Project GreenBean",
-    //update w details
-    description: "optimization coming soon!",
-    github: "https://github.com/Leilamoumou/greenbean",
-    tag: "Personal Project",
+    tag: ["Capstone","HTML","CSS"],
     color: '#FF3CAC'
   },
   {
-    id: 5,
-    name: "MeowCode",
-    //update w details
-    description: "a personal project i am looking forward to updating on!!",
-    github: "https://github.com/Leilamoumou/Meowcode",
-    tag: "Personal Project",
-    color: '#FF3CAC'
+    id: 4,
+    name: "CunyFriends",
+    description: "class project",
+    github:"https://github.com/Leilamoumou/cuny-friends-csci405 ",
+    tag:["GitHub Actions","React Native"],
+    color:'#FF3CAC'
   }
+  
   
 ]
 //interests 
@@ -87,8 +79,26 @@ const CURRENT=[
     description: "streamlining workflows, updating description soon.",
     github: "https://github.com/Leilamoumou/flowfix-capstone",
     tag: ["Capstone","HTML","CSS"],
-    color: '#FF3CAC'
+    color: '#00FFED'
   },
+    {
+    id: 2,
+    name: "Project GreenBean",
+    //update w details
+    description: "optimization coming soon!",
+    github: "https://github.com/Leilamoumou/greenbean",
+    tag: "Personal Project",
+    color: '#00FFED'
+  },
+  {
+    id: 3,
+    name: "MeowCode",
+    //update w details
+    description: "a personal project i am looking forward to updating on!!",
+    github: "https://github.com/Leilamoumou/Meowcode",
+    tag: "Personal Project",
+    color: '#00FFED'
+  }
 ]
 
 // NAVBAR
@@ -142,7 +152,6 @@ function Hero(){
        
  <div className="hero__ctas">
     <a href="#projects" className="hero__cta">See My Work Here!→</a>
-    <a href="#interests" className="hero__cta">My Passions &amp;&amp; Interests Pertaining To The Field→</a>
     <a href="#currently" className="hero__cta">Check Out What I'm Currently Up To→</a>
 </div>
       </div>
