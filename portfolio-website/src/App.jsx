@@ -31,9 +31,9 @@ const PROJECTS = [
     id: 1,
     name: "FlowFix",
     //update w details
-    description: "streamlining workflows, updating description soon.",
+    description: "Architected along with group members a scalable full-stack system for a capstone group project, selecting React.js, Node.js, NoSQL, and an external AI/ML API to support growth and modular extensibility • Established a GitHub Actions CI/CD pipeline from prototype through final release, automating testing and deployment to GitHub Pages on every push to main and enabling consistent incremental feature delivery",
     github: "https://github.com/Leilamoumou/flowfix-capstone",
-    tag: ["Capstone","HTML","CSS"],
+    tag: ["Capstone","CI/CD","HTML","CSS","Javascript","Firebase","Firestore","NoSQL","GEMINI API"],
     color: '#FF3CAC'
   }
    ,{
