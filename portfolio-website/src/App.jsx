@@ -77,13 +77,13 @@ const PROJECTS = [
 
 const CURRENT=[
   {
-   id: 1,
-    name: "FlowFix",
+    id: 2,
+    name: "FlowFix - JAN 26 <-> MAY 26",
     //update w details
-    description: "streamlining workflows, updating description soon.",
+    description: "Architected along with group members a scalable full-stack system for a capstone group project, selecting React.js, Node.js, NoSQL, and an external AI/ML API to support growth and modular extensibility • Established a GitHub Actions CI/CD pipeline from prototype through final release, automating testing and deployment to GitHub Pages on every push to main and enabling consistent incremental feature delivery",
     github: "https://github.com/Leilamoumou/flowfix-capstone",
-    tag: ["Capstone","HTML","CSS"],
-    color: '#00FFED'
+    tag: ["Capstone","CI/CD","HTML","CSS","Javascript","Firebase","Firestore","NoSQL","GEMINI API"],
+    color: '#3cb4ff'
   },
     {
     id: 2,
@@ -92,7 +92,7 @@ const CURRENT=[
     description: "optimization coming soon!",
     github: "https://github.com/Leilamoumou/greenbean",
     tag: "Personal Project",
-    color: '#00FFED'
+    color: '#ff00a6'
   },
   {
     id: 3,
@@ -101,7 +101,7 @@ const CURRENT=[
     description: "a personal project i am looking forward to updating on!!",
     github: "https://github.com/Leilamoumou/Meowcode",
     tag: "Personal Project",
-    color: '#00FFED'
+    color: '#3cb4ff'
   }
 ]
 
@@ -263,10 +263,10 @@ function Interests(){
   return(
     <section id= "interests"  className="interests">
         <h1 className="section-title">
-        Interests(CHANGING!) <span className="section-title__dot">.</span>
+        About Me++ <span className="section-title__dot">.</span>
       </h1>
       <p className="interests__bio">
-        Will list the pre &amp;&amp; post college interests relating to tech here.
+        .
       </p>
     </section>
 
@@ -280,7 +280,7 @@ function Currently(){
         My Latest Commits <span className="section-title__dot"></span>
       </h1>
       <p>
-        current works shown here &amp;  progress updates. also updating functionality on it.
+        I update my portfolio every other week, check out my most recent commits :3 (last updated 5/4/26)!
       </p>
        <div className="currently__grid">
         {CURRENT.map(c => <CurrentCard key={c.id} current={c} />)}
