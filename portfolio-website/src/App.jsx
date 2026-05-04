@@ -27,8 +27,16 @@ const NAV_LINKS = [
 ]
 
 const PROJECTS = [
-  {
+   {
     id: 1,
+    name: "For The Culture",
+    description: "In New York City, many fundamental resources—such as health centers, food banks, and transportation—are predominantly documented in English, creating a hurdle for the city's vast non-English speaking population. This website was built to centralize these resources in a way that is both intuitive and inclusive. I worked on the frontend with our team member Islam and individually on the backend for the map page! This includes the overall functionality for toggling between maps. I also connected the open-source data of the food banks and bus routes!",
+    github:"https://hunter-hacks-2026.onrender.com/",
+    tag:["HunterHacks26","Gemini 2.5 API","React", "Render","Gemini Maps API", "Firebase"],
+    color:'#FF3CAC'
+  },
+  {
+    id: 2,
     name: "FlowFix",
     //update w details
     description: "Architected along with group members a scalable full-stack system for a capstone group project, selecting React.js, Node.js, NoSQL, and an external AI/ML API to support growth and modular extensibility • Established a GitHub Actions CI/CD pipeline from prototype through final release, automating testing and deployment to GitHub Pages on every push to main and enabling consistent incremental feature delivery",
@@ -37,7 +45,7 @@ const PROJECTS = [
     color: '#FF3CAC'
   }
    ,{
-    id: 2,
+    id: 3,
     name: "Empire Mimikatz Kerberos Attack Forensics | CodePath CYB102 Capstone	",
     //update w details
     description: "Conducted forensic analysis of an Empire/Mimikatz Kerberos credential harvesting attack, analyzing 2,480 network events in Splunk to identify C2 patterns, detect DCSync/DRSUAPI abuse across 4 compromised workstations, and map TTPs to MITRE ATT&CK framework (T1558.003, T1078, T1071.001).",
@@ -47,7 +55,7 @@ const PROJECTS = [
     color: '#FF3CAC'
   },
    {
-    id: 3,
+    id: 4,
     name: "Hangman",
     //update w details
     description: "streamlining workflows, updating description soon.",
@@ -56,7 +64,7 @@ const PROJECTS = [
     color: '#FF3CAC'
   },
   {
-    id: 4,
+    id: 5,
     name: "CunyFriends",
     description: "class project",
     github:"https://github.com/Leilamoumou/cuny-friends-csci405 ",
@@ -66,11 +74,7 @@ const PROJECTS = [
   
   
 ]
-//interests 
-//const INTERESTS=[
-  //{},
-//]
-//current works
+
 const CURRENT=[
   {
    id: 1,
@@ -250,7 +254,7 @@ function CurrentCard ({ current }){
           rel="noreferrer"
           >
           
-            View on GitHub ↗
+            Check it out ↗
              </a>
         </div>
   )
