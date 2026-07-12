@@ -1,5 +1,5 @@
 # Greetings ₍⸍⸌̣ʷ̣̫⸍̣⸌₎!
-  Welcome to my GitHub profile! My name is Leila Moumou, and I am in my final semester pursuing a BA in Computer Science with a minor in Mathematics. I'm also a tech fellow for CodePath's Intermediate Cybersecurity course!
+  Welcome to my GitHub profile! My name is Leila Moumou, and I am a Hunter 26' Grad, with a BA in Computer Science and a minor in Mathematics. I'm also a tech fellow for CodePath's Intermediate Cybersecurity course!
 ## My interests
   Algorithms and development have fascinated me since I was a kid, as I'd play Flash plugin JS games (or even Mario Kart) and be fascinated by the idea that code could bring such things to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification are critical. I look forward to pursuing my master's a year or two post-grad, and I hope to continue conducting research beyond that. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such systems in modern cybersecurity infrastructure.
 ## What I'm currently working on
