@@ -2,10 +2,10 @@
   Welcome to my GitHub profile! My name is Leila Moumou, and I am a Hunter 26' Grad, with a BA in Computer Science and a minor in Mathematics. I'm currently an AI native software engineer at Accenture!
 ## My interests
   Algorithms and development have fascinated me since I was a kid, as I'd play Flash plugin JS games (or even Mario Kart) and be fascinated by the idea that code could bring such things to life! I also grew an interest in cybersecurity, a world where analysis, debugging, and verification are critical. I look forward to pursuing my master's a year or two post-grad, and I hope to continue conducting research beyond that. I am extremely interested in pursuing the correlation between verification systems involving formal methods and how to integrate such systems in modern cybersecurity infrastructure.
-## What I'm currently working on
+## What I'm currently working on (IP)
  I am currently working on building projects during my last semester. I have worked on full-stack projects, but plan to continue building more projects to deepen my understanding of system design! I am also currently studying to obtain my first cybersecurity-related certification and doing my research before embarking on the journey.
  
-## My Current Projects
+## My Current Projects (IP)
 - |[flowfix-capstone](https://github.com/Leilamoumou/flowfix-capstone) |
 I am currently in a group project for my capstone, where our AI agent connects users with plumbers best suited for the task at hand! I am responsible for our frontend homepage & login, CI/CD implementation, testing frameworks, and our backend beyond our AI API.
 
@@ -18,7 +18,7 @@ A revival of a frontend-only project I created, that I'm currently working on in
 
 ---
 
-## Recently Completed Projects
+## Recently Completed Projects (IP)
 - |[For The Culture](https://github.com/Leilamoumou/ForTheCulture)|
 A group project for Hunter's 2026 Hackathon! This website was built in ~24 hours to centralize a variety of NYC resources in an intuitive, inclusive way. I worked on the frontend with our team member, Islam, and individually on the backend for the map page! This includes the overall functionality for toggling between maps. I also connected the open-source data of the food banks and bus routes! @4/25/26
 
